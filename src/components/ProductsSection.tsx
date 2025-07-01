@@ -120,17 +120,25 @@ const ProductsSection: React.FC = () => {
                 
                 <div className="flex items-center justify-between">
                   <span className="text-2xl font-bold text-emerald-600">{product.price}</span>
-                  <button 
-                    className={`flex items-center space-x-2 px-4 py-2 rounded-lg font-medium transition-colors duration-200 ${
-                      product.inStock 
-                        ? 'bg-emerald-600 text-white hover:bg-emerald-700' 
-                        : 'bg-gray-300 text-gray-500 cursor-not-allowed'
-                    }`}
-                    disabled={!product.inStock}
-                  >
-                    <MapPin className="h-4 w-4" />
-                    <span>{product.inStock ? 'Find at Market' : 'Out of Season'}</span>
-                  </button>
+                  {product.inStock ? (
+                    <a 
+                      href="https://wa.me/2349159887832"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center space-x-2 px-4 py-2 rounded-lg font-medium transition-colors duration-200 bg-emerald-600 text-white hover:bg-emerald-700"
+                    >
+                      <MapPin className="h-4 w-4" />
+                      <span>Find at Market</span>
+                    </a>
+                  ) : (
+                    <button 
+                      className="flex items-center space-x-2 px-4 py-2 rounded-lg font-medium transition-colors duration-200 bg-gray-300 text-gray-500 cursor-not-allowed"
+                      disabled
+                    >
+                      <MapPin className="h-4 w-4" />
+                      <span>Out of Season</span>
+                    </button>
+                  )}
                 </div>
               </div>
             </div>

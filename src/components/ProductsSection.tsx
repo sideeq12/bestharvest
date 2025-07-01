@@ -5,7 +5,7 @@ const ProductsSection: React.FC = () => {
   const products = [
     {
       name: 'Sweet Bell Peppers',
-      price: '₦800/kg',
+      price: '',
       image: 'https://images.pexels.com/photos/594137/pexels-photo-594137.jpeg?auto=compress&cs=tinysrgb&w=400',
       description: 'Crisp, colorful bell peppers perfect for local dishes and fresh consumption.',
       rating: 4.9,
@@ -13,7 +13,7 @@ const ProductsSection: React.FC = () => {
     },
     {
       name: 'Beefsteak Tomatoes',
-      price: '₦600/kg',
+      price: '',
       image: 'https://images.pexels.com/photos/533280/pexels-photo-533280.jpeg?auto=compress&cs=tinysrgb&w=400',
       description: 'Large, juicy tomatoes ideal for stews, salads and fresh eating.',
       rating: 4.8,
@@ -21,7 +21,7 @@ const ProductsSection: React.FC = () => {
     },
     {
       name: 'Cherry Tomatoes',
-      price: '₦900/kg',
+      price: '',
       image: 'https://images.pexels.com/photos/1327838/pexels-photo-1327838.jpeg?auto=compress&cs=tinysrgb&w=400',
       description: 'Sweet, bite-sized tomatoes perfect for snacking and garnishing.',
       rating: 4.9,
@@ -29,7 +29,7 @@ const ProductsSection: React.FC = () => {
     },
     {
       name: 'Hot Peppers (Ata Rodo)',
-      price: '₦1,200/kg',
+      price: '',
       image: 'https://images.pexels.com/photos/1437587/pexels-photo-1437587.jpeg?auto=compress&cs=tinysrgb&w=400',
       description: 'Fresh, spicy peppers essential for authentic Nigerian cuisine.',
       rating: 4.7,
@@ -37,7 +37,7 @@ const ProductsSection: React.FC = () => {
     },
     {
       name: 'Roma Tomatoes',
-      price: '₦550/kg',
+      price: '',
       image: 'https://images.pexels.com/photos/1327838/pexels-photo-1327838.jpeg?auto=compress&cs=tinysrgb&w=400',
       description: 'Dense, meaty tomatoes perfect for sauces and traditional cooking.',
       rating: 4.8,
@@ -45,7 +45,7 @@ const ProductsSection: React.FC = () => {
     },
     {
       name: 'Mixed Pepper Variety Pack',
-      price: '₦2,000/pack',
+      price: '',
       image: 'https://images.pexels.com/photos/594137/pexels-photo-594137.jpeg?auto=compress&cs=tinysrgb&w=400',
       description: 'Assorted pepper varieties including bell peppers and local hot varieties.',
       rating: 4.9,
